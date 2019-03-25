@@ -28,6 +28,10 @@ object ArrayBuffer_Concept extends App{
 //    Person("Jim")
 //  )
 
-  class Person(var name: String){}
+
+  val lst:List[Int] = nums.toList
+  println(lst)
 
 }
+
+class Person(var name: String){}
