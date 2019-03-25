@@ -1,19 +1,19 @@
 /**
   * Created by rkrovvidi on 3/24/19.
   */
-object Try_Catch_Finally extends App{
+object Try_Catch_Finally extends App {
 
 
-  def strToInt(input:String):Int ={
+  def strToInt(input: String): Int = {
 
-try {
-  input.toInt
-}catch {
-  case exception_1:NumberFormatException => 0
-}
-finally {
-println("do some cleanup from this finally, regardless of try or catch")
-}
+    try {
+      input.toInt
+    } catch {
+      case exception_1: NumberFormatException => 0
+    }
+    finally {
+      println("do some cleanup from this finally, regardless of try or catch")
+    }
 
   }
 
