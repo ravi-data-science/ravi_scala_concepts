@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10d7fbbb-7973-417f-8229-c3ab659e3a1c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Vector_Concept.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Streams_LazyLists.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArrayBuffer_Concept.scala" afterPath="$PROJECT_DIR$/src/ArrayBuffer_Concept.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,11 +64,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vector_Concept.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Vector_Concept.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Vector_Concept.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Streams_LazyLists.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Streams_LazyLists.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,6 +107,7 @@
         <option value="$PROJECT_DIR$/src/List_multiple_ways.scala" />
         <option value="$PROJECT_DIR$/src/ArrayBuffer_Concept.scala" />
         <option value="$PROJECT_DIR$/src/Vector_Concept.scala" />
+        <option value="$PROJECT_DIR$/src/Streams_LazyLists.scala" />
       </list>
     </option>
   </component>
@@ -161,7 +171,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Vector_Concept">
+  <component name="RunManager" selected="Application.Streams_LazyLists">
     <configuration default="false" name="List_multiple_ways" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="List_multiple_ways" />
@@ -195,6 +205,21 @@
     <configuration default="false" name="Vector_Concept" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Vector_Concept" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ravi_scala_concepts" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Streams_LazyLists" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Streams_LazyLists" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -485,16 +510,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.List_multiple_ways" />
       <item index="1" class="java.lang.String" itemvalue="Application.ArrayBuffer_Concept" />
       <item index="2" class="java.lang.String" itemvalue="Application.Vector_Concept" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Streams_LazyLists" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.Vector_Concept" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ArrayBuffer_Concept" />
-        <item index="2" class="java.lang.String" itemvalue="Application.List_multiple_ways" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Streams_LazyLists" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Vector_Concept" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ArrayBuffer_Concept" />
+        <item index="3" class="java.lang.String" itemvalue="Application.List_multiple_ways" />
       </list>
     </recent_temporary>
   </component>
@@ -606,8 +633,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Vector_Concept.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Streams_LazyLists.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
