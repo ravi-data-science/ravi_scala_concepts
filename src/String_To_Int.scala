@@ -19,6 +19,7 @@ object String_To_Int extends App{
     try {
       Some(s.toInt)
     } catch {
+      case e1: NumberFormatException => None
       case e: Exception => None
     }
   }
