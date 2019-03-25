@@ -14,5 +14,5 @@ object ImmutableQueue extends App{
   val has123 = has1.enqueue(List(2, 3))
 println(has123)
 
-  
+
 }

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10d7fbbb-7973-417f-8229-c3ab659e3a1c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ImmutableQueue.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ImmutableStack.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lazy_Concept.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ListBuffer_Concept.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Mutable_List.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImmutableQueue.scala" afterPath="$PROJECT_DIR$/src/ImmutableQueue.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,16 +27,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="For_Expression.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/For_Expression.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Tuples_Concept.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tuples_Concept.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,11 +87,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImmutableQueue.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ImmutableQueue.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ImmutableQueue.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mutable_List.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Mutable_List.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListBuffer_Concept.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ListBuffer_Concept.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lazy_Concept.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lazy_Concept.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -131,6 +155,9 @@
         <option value="$PROJECT_DIR$/src/Streams_LazyLists.scala" />
         <option value="$PROJECT_DIR$/src/ImmutableStack.scala" />
         <option value="$PROJECT_DIR$/src/ImmutableQueue.scala" />
+        <option value="$PROJECT_DIR$/src/Mutable_List.scala" />
+        <option value="$PROJECT_DIR$/src/Lazy_Concept.scala" />
+        <option value="$PROJECT_DIR$/src/ListBuffer_Concept.scala" />
       </list>
     </option>
   </component>
@@ -258,22 +285,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ImmutableQueue">
-    <configuration default="false" name="ArrayBuffer_Concept" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ArrayBuffer_Concept" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ravi_scala_concepts" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ListBuffer_Concept">
     <configuration default="false" name="Vector_Concept" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Vector_Concept" />
@@ -322,6 +334,21 @@
     <configuration default="false" name="ImmutableQueue" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ImmutableQueue" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ravi_scala_concepts" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ListBuffer_Concept" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ListBuffer_Concept" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -613,19 +640,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ArrayBuffer_Concept" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Vector_Concept" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Streams_LazyLists" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ImmutableStack" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ImmutableQueue" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Vector_Concept" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Streams_LazyLists" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ImmutableStack" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ImmutableQueue" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ListBuffer_Concept" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ImmutableQueue" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ImmutableStack" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Streams_LazyLists" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Vector_Concept" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ArrayBuffer_Concept" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ListBuffer_Concept" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ImmutableQueue" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ImmutableStack" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Streams_LazyLists" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Vector_Concept" />
       </list>
     </recent_temporary>
   </component>
@@ -676,7 +703,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36363637" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5027548" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18240343" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -769,8 +796,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ImmutableQueue.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lazy_Concept.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mutable_List.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListBuffer_Concept.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding />
         </state>
       </provider>
