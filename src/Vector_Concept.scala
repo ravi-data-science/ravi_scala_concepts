@@ -15,4 +15,18 @@ object Vector_Concept extends App{
 
 println(vec4.toList)
 
+
+  val vec_string = Vector ("india","china")
+
+  val vec_string_1 = vec_string :+ "us"
+
+  println(vec_string_1)
+
+  val vec_string_2 = Vector ("asia","africa")
+
+  vec_string_1 ++ vec_string_2
+
+
 }
+
+

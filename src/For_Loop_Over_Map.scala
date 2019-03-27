@@ -8,4 +8,11 @@ object For_Loop_Over_Map extends App{
 
   for ((k,v) <- names) println(s"key: $k, value: $v")
 
+
+  for ((k,v) <- names) {
+    println(k)
+    println(v)
+  }
+
+
 }
