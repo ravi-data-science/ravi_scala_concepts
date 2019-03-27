@@ -11,6 +11,8 @@ object List_multiple_ways extends App{
   // java style
   val lst_2 = List(1,2,3)
 
+  lst_2.foreach{println}
+
   println(lst_2)
 
   //if you're going to mix types in a List constructor, you may need to manually specify the type of the List.
@@ -34,6 +36,7 @@ object List_multiple_ways extends App{
   val lst_6 = List.tabulate(5)(n => n * n)
 
   println(lst_6)
+
 
 
 }
