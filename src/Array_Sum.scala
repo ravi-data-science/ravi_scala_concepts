@@ -33,4 +33,17 @@ object Array_Sum extends App{
   println(arr_sum_1.toList)
 
 
+
+  var sum2=0
+  val arr_sum_2 = for(ctr <- arr)
+    yield
+      {
+
+        sum2 = sum2+ctr
+        sum2
+
+      }
+
+  println(arr_sum_2.toList)
+
 }
