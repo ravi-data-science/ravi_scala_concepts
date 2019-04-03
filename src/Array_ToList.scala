@@ -17,6 +17,7 @@ object Array_ToList extends App{
 
 
 
+
   val twoThree = List(2, 3)
   val oneTwoThree = 1 :: twoThree
   println(oneTwoThree)
