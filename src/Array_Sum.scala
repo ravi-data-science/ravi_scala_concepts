@@ -3,7 +3,7 @@
   */
 object Array_Sum extends App{
 
-/*
+
   val arr = Array(1,2,4,5,7)
 
   var sum1 =0
@@ -31,15 +31,15 @@ object Array_Sum extends App{
   }
 
 
-  for {
-
-    //basic loop condition
-    //guard condition
-
-  } yield
-  {
-    //body
-  }
+//  for {
+//
+//    //basic loop condition
+//    //guard condition
+//
+//  } yield
+//  {
+//    //body
+//  }
 
   println(arr_sum_1.toList)
 
@@ -57,5 +57,5 @@ object Array_Sum extends App{
 
   println(arr_sum_2.toList)
 
-*/
+
 }
