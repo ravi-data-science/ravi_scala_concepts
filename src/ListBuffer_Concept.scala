@@ -1,6 +1,4 @@
-/**
-  * Created by rkrovvidi on 3/24/19.
-  */
+
 object ListBuffer_Concept extends App {
 
   import scala.collection.mutable.ListBuffer

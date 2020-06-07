@@ -1,5 +1,5 @@
 /**
-  * Created by rkrovvidi on 3/25/19.
+  * Created by economicx on 3/25/19.
   */
 object ForEach extends App{
 
@@ -11,7 +11,7 @@ object ForEach extends App{
   }
 
   def fun1(str:String): Unit={
-    println("in fun1"+str)
+    println("in fun1: "+str)
   }
 
 }

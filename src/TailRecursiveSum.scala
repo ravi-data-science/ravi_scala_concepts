@@ -1,8 +1,5 @@
 import scala.annotation.tailrec
 
-/**
-  * Created by rkrovvidi on 3/10/19.
-  */
 //tail recursion
 object TailRecursiveSum extends App {
 

@@ -4,8 +4,8 @@
 object Tuples_Concept extends App{
 
 
-  //tuples
-  val (myVar1: Int, myVar2: String) = Pair(40, "Foo")
-  //t.toString
+//  //tuples
+//  val (myVar1: Int, myVar2: String) = Pair(40, "Foo")
+//  //t.toString
 
 }
