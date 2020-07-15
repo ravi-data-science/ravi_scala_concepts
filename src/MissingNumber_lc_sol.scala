@@ -46,3 +46,22 @@ object MissingNumber_lc_sol extends App {
     return -1
   }
 }
+
+/*
+create table games select distinct game_id from revenue_sorted;
+
+
+select Game,Age,Cum_rev
+from
+(
+SET @runningTotal = 0;
+SELECT
+game_id as Game,
+DATEDIFF(act_date,'2020-01-01') as Age,
+@runningTotal := @runningTotal + totals.amt AS Cum_rev
+FROM
+(SELECT      game_id,     DATE(activity_date) AS act_date,
+  SUM(amount) AS amt FROM revenue_sorted AS e GROUP BY e.game_id,DATE(activity_date)) totals ORDER BY game_id, act_date)
+
+
+ */

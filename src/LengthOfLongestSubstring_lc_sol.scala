@@ -1,5 +1,5 @@
 object LengthOfLongestSubstring_lc_sol {
-
+/*
   val str1 = "abcabcbb"
 
   println(lengthOfLongestSubstring(str1))
@@ -22,4 +22,6 @@ object LengthOfLongestSubstring_lc_sol {
     }
     ans
   }
+  */
+
 }
